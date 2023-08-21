@@ -1,0 +1,46 @@
+TestRandomInsertSpeed
+1. String length: 5, # of String: 1000
+ULLMap: 0.01s
+MyHashMap: 0.00s
+Java built-in HashMap: 0.00s
+2. String length: 5, # of String: 10000
+ULLMap: 0.26s
+MyHashMap: 0.01s
+Java built-in HashMap: 0.00s
+3. String length: 5, # of String: 25000
+ULLMap: stack overflow 
+MyHashMap: 0.02s
+Java built-in HashMap: 0.01s
+4. String length: 10, # of String: 1000
+ULLMap: 0.01s
+MyHashMap: 0.00s
+Java built-in HashMap: 0.00s
+5. String length: 10, # of String: 10000
+ULLMap: 0.31s
+MyHashMap: 0.01s
+Java built-in HashMap: 0.00s
+6. String length: 10, # of String: 25000
+ULLMap: stack overflow 
+MyHashMap: 0.02s
+Java built-in HashMap: 0.01s
+
+TestOrderInsertSpeed
+1. # of String: 1000
+ULLMap: 0.02s
+MyHashMap: 0.01s
+Java built-in HashMap: 0.00s
+2. # of String: 5000
+ULLMap: 0.18s
+MyHashMap: 0.01s
+Java built-in HashMap: 0.01s
+3. # of String: 10000
+ULLMap: 0.7s
+MyHashMap: 0.01s
+Java built-in HashMap: 0.01s
+4. # of String: 25000
+ULLMap: stack overflow 
+MyHashMap: 0.04s
+Java built-in HashMap: 0.03s
+
+Conclusion: I can see that the ULLMap is much slower than MyHashMap and builtin HashMap in both kinds of tests. MyHashMap and builtin HashMap have very similar speed, the difference is within the the factor of 10.
+

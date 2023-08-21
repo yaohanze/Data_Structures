@@ -1,0 +1,53 @@
+InsertRandomSpeedTest
+
+1. String length: 2, # of insertion: 100
+  class ULLMap: 0.00 sec
+  class BSTMap: 0.00 sec
+  Java's Built-in TreeMap: 0.00 sec
+2. String length: 2, # of insertion: 10000
+  class ULLMap: 0.26 sec
+  class BSTMap: 0.00 sec
+  Java's Built-in TreeMap: 0.00 sec
+3. String length: 2, # of insertion: 25000
+  class ULLMap: 1.66 sec
+  class BSTMap: 0.00 sec
+  Java's Built-in TreeMap: 0.00 sec
+4. String length: 5, # of insertion: 100
+  class ULLMap: 0.00 sec
+  class BSTMap: 0.00 sec
+  Java's Built-in TreeMap: 0.00 sec
+5. String length: 5, # of insertion: 10000
+  class ULLMap: 0.34 sec
+  class BSTMap: 0.01 sec
+  Java's Built-in TreeMap: 0.01 sec
+6. String length: 5, # of insertion: 25000
+  class ULLMap: 1.69 sec
+  class BSTMap: 0.02 sec
+  Java's Built-in TreeMap: 0.02 sec
+
+InsertInOrderSpeedTest
+
+1. # of insertion: 1000
+  class ULLMap: 0.02 sec
+  class BSTMap: 0.02 sec
+  Java's Built-in TreeMap: 0.00 sec
+  Java's Built-in HashMap: 0.00 sec
+2. # of insertion: 5000
+  class ULLMap: 0.19 sec
+  class BSTMap: 0.21 sec
+  Java's Built-in TreeMap: 0.01 sec
+  Java's Built-in HashMap: 0.00 sec
+3. # of insertion: 10000
+  class ULLMap: 0.68 sec
+  class BSTMap: 0.88 sec
+  Java's Built-in TreeMap: 0.01 sec
+  Java's Built-in HashMap: 0.01 sec
+4. # of insertion: 25000
+  class ULLMap: 7.09 sec
+  class BSTMap: 3.12 sec
+  Java's Built-in TreeMap: 0.03 sec
+  Java's Built-in HashMap: 0.02 sec
+
+From all the tests above, I can see that BSTMap has obvious speed advantage on random insertion over ULLMap. And in random insertion, BSTMap has speed close to industrial strength map.
+But in ordered insertion, BSTMap has similar speed with ULLMap, even slower when number of insertion is small. Both BSTMap and ULLMap are way slower than industrial strength map.
+

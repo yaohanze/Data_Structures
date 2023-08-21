@@ -1,0 +1,30 @@
+Q: Can you think of an analogy between the process of tesselating hexagons and randomly generating a world using rooms and hallways? 
+What is the hexagon and what is the tesselation on the Project 3 side?
+
+A: As for hexagon, it can have different types (tree, grass, sand etc.). Ass for project 3, we need to assign wall, floor and door that can bound rooms and hallways in the world.
+
+-----
+Q: If you were to start working on world generation, what kind of method would you think of writing first? 
+Think back to the lab and the process used to eventually get to tesselating hexagons.
+
+A: I want to implement some method that can determine the shape and size of the rooms and hallways first.
+
+-----
+Q: What distinguishes a hallway from a room? How are they similar?
+
+A: Hallway is always 1 in width but room has both length and width larger than 1. Hallway and room are both bounded by walls (#） and represented by floor (.) .
+
+-----
+Q: For tesselating hexagons, one of the hardest parts is figuring out where to place each hexagon/how to easily place hexagons on screen in an algorithmic way. 
+After looking at your own implemention, consider the implementation provided near the end of the lab. 
+How did your implementation differ from the given one? What lessons can be learned from it?
+
+A: My initial thought would be to draw every single hexagon one by one in some certain order. But after seeing the provided implementation, I learn that it is much easier to
+draw the hexagons by columns instead.
+
+-----
+Q: Consider an algorithm for placing rooms and hallways on your map. 
+Ideally, consider many algorithms and think about what makes some easier or harder to implement. Try and bring those ideas together into a single simple algorithm which accomplishes the task. 
+In general, algorithms with as few edge cases as possible are better algorithms.
+
+A: For now, I can't think of a perticular algorithm. I still need to read the apec and wacth the walk-through videos carefully.

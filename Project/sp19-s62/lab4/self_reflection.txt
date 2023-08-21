@@ -1,0 +1,63 @@
+All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I should have written more helper functions so that my code is more readable and I can avoid repeating myself.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I write the resize method properly.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I was so lazy that I did not improve my code with helper functions after I passed the autograder even if I knew I should do it.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A: I learned that in the get method I should check whether the index is valid.
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I should have known the benefits of helper function better.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: Definitely use helper functions more.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I can make my copy another linked list constructor simpler.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I wrote the copy from another linked list without watching the walkthrough video.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I should have deleted many "else"s in my code.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A: I learn that I can use the method that I define in the class for constructor.
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: No particular stuff.
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I can make my code simpler after watching the walkthrough video.
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: Yes.
